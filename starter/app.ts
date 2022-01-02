@@ -1,1 +1,1 @@
-console.log("Your code goes here");
+let userType: unknown;
