@@ -29,4 +29,5 @@ function generateError(message: string, code: number): never {
   throw { message, code };
 }
 
+console.log("Recompilation Test");
 generateError("An error occurred!", 500);
