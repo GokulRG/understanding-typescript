@@ -29,5 +29,13 @@ function generateError(message: string, code: number): never {
   throw { message, code };
 }
 
+const button = document.querySelector("button")!;
+
+function handleClick() {
+  console.log("Button Clicked");
+}
+
+button.addEventListener("click", handleClick);
+
 console.log("Recompilation Test");
-generateError("An error occurred!", 500);
+// generateError("An error occurred!", 500);
